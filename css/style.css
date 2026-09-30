@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+body* {
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 20px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(110, 109, 109);
+}
+.menu a {
+  color: black;
+}
